@@ -1,0 +1,22 @@
+# To use:
+#   $ conda env create -f environment.yml
+#   $ conda activate d2l
+name: pluto
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - torch==1.8.1
+    - torchvision==0.9.1
+    - numpy 
+    - scipy 
+    - matplotlib 
+    - ipython 
+    - jupyter 
+    - pandas 
+    - sympy 
+    - nose
+    - opencv-contrib-python-headless
+    - scikit-image
+    - tensorflow
+    - sklearn
